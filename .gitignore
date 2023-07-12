@@ -1,0 +1,20 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/EfCoreIdentityDbContext/FileContentIndex
+/.vs/EfCoreIdentityDbContext/v17
+/University/.vs/ProjectEvaluation
+/University/.vs/University/FileContentIndex
+/University/.vs/University/v17
+/University/.vs/University/DesignTimeBuild
+/University/University.Application/bin/Debug/net7.0
+/University/University.Application/obj
+/University/University.Domain/bin/Debug/net7.0
+/University/University.Domain/obj
+/University/University.Infrastructure/bin/Debug/net7.0
+/University/University.Infrastructure/obj
+/University/University.Persistence/bin/Debug/net7.0
+/University/University.Persistence/obj
+/University/University.Web/bin/Debug/net7.0
+/University/University.Web/obj

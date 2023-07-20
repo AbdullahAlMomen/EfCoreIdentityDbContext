@@ -1,4 +1,5 @@
 ﻿using Autofac;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using University.Infrastructure;
 using University.Infrastructure.Exceptions;
@@ -9,6 +10,7 @@ using University.Web.Utilities;
 namespace University.Web.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize]
     public class StudentController : Controller
     {
         ILifetimeScope _scope;
